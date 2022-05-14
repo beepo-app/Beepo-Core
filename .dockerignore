@@ -1,0 +1,7 @@
+**/node_modules
+**/.stacks-core-build*
+**/.chaindata
+lib/**
+coverage/**
+./tmp/**
+**/*.Dockerfile

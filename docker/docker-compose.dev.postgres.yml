@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  postgres:
+    image: "postgres:12.2"
+    ports:
+      - "5490:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: stacks_blockchain_api
+      POSTGRES_PORT: 5432

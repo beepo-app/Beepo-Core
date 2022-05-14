@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": false,
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "outDir": "lib",
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@stacks/stacks-blockchain-api-types": ["docs"],
+      "@stacks/blockchain-api-client": ["client/src"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["lib", "node_modules"]
+}
