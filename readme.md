@@ -1,7 +1,6 @@
 # @beepo/blockchain-apis
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/blockstack/stacks-blockchain-api-standalone)](https://hub.docker.com/r/hirosystems/stacks-blockchain-api-standalone/)
-[![NPM client package](https://img.shields.io/badge/npm-%40stacks%2Fblockchain--api--client-blue)](https://www.npmjs.org/package/@stacks/blockchain-api-client)
+
 
 ## Quick start
 
